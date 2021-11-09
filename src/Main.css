@@ -1,0 +1,66 @@
+.main {
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  padding: 0px 5%;
+}
+
+.intro {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.6rem;
+}
+
+.intro h1 {
+  text-align: center;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+  gap: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 14rem;
+}
+
+/* Media */
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .intro h1 {
+    text-align: left;
+  }
+
+  .intro {
+    justify-content: start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contato {
+    justify-content: start;
+    margin-left: 0.3rem;
+  }
+}

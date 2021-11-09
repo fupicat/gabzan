@@ -1,0 +1,30 @@
+.anchor {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+  border: 2px solid black;
+  border-radius: 0.3rem;
+  text-align: center;
+  color: black;
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.3s;
+}
+
+.anchor:hover {
+  background-color: black;
+  border-color: transparent;
+  color: white;
+}
+
+.anchor i {
+  font-size: 1.3rem;
+  width: 20%;
+  text-align: center;
+}
+
+.anchor p {
+  width: 80%;
+  text-align: center;
+}
