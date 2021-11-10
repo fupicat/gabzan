@@ -100,7 +100,7 @@ function Main() {
       <Category title="Game dev">
         <Project
           title="Scratch Quest"
-          about="Jogo boss rush completo com 4 bosses e história. Prove ao mundo que o Scratch é o melhor programa."
+          about="Jogo boss rush completo com 4 bosses e história."
           tools={["Godot"]}
           link="https://gamejolt.com/games/scratchquest/512290"
         />
