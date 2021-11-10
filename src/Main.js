@@ -145,7 +145,7 @@ function Main() {
       <Category title="Sobre mim">
         <Project
           title="Gabriel Rauta Zanette · 18 anos · Caxias do Sul, RS"
-          about="Minha paixão é aprender coisas novas, especialmente relacionadas à programação! Comecei a aprendê-la para criar jogos, e hoje tenho paixão por desenvolvimento de websites e ferramentas. Além de programar gosto de compor música, editar vídeos, desenhar e nadar."
+          about="Minha paixão é aprender coisas novas, especialmente relacionadas à programação! Comecei a aprendê-la para criar jogos, e hoje amo o desenvolvimento de websites e ferramentas. Além de programar gosto de compor música, editar vídeos, desenhar e nadar."
         />
       </Category>
       <footer>
