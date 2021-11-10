@@ -13,6 +13,7 @@ function Main() {
           <div className="contato">
             <a href="https://github.com/fupicat/"><i class="fab fa-github fa-2x"></i></a>
             <a href="mailto:gabzanette437@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+            <a className="anchor" href="/Gabriel Rauta Zanette Currículo.pdf">Baixar currículo</a>
           </div>
         </div>
         <nav>
@@ -20,7 +21,6 @@ function Main() {
           <Anchor text="Backend" icon="server" />
           <Anchor text="Game dev" icon="gamepad" />
           <Anchor text="Tradução" icon="language" />
-          <Anchor text="Etc." icon="ellipsis-h" />
           <Anchor text="Sobre mim" icon="surprise" />
         </nav>
       </header>
@@ -71,8 +71,15 @@ function Main() {
           title="Botagram"
           about="Exercício da Digital Innovation One com design diferente e imagens aleatórias da API da Unsplash."
           tools={["HTML", "CSS", "JavaScript", "GitHub Pages"]}
-          link="https://github.com/fupicat/botagram"
-          source="https://fupicat.github.io/botagram/"
+          link="https://fupicat.github.io/botagram/"
+          source="https://github.com/fupicat/botagram"
+        />
+        <Project
+          title="GabZan"
+          about="Meu portfólio. Você está aqui agora."
+          tools={["React.js", "CSS", "JavaScript", "Netlify"]}
+          link="https://gabzan.netlify.app"
+          source="https://github.com/fupicat/gabzan"
         />
       </Category>
       <Category title="Backend">
@@ -83,7 +90,71 @@ function Main() {
           link="https://scratchprojects--fupibrazil.repl.co/"
           source="https://replit.com/@FupiBrazil/ScratchProjects?v=1"
         />
+        <Project
+          title="Scratch-UserDB"
+          about="Programa que conecta variáveis na nuvem do Scratch a uma base de dados e implementa uma API. Foi um experimento rápido e não tem documentação ainda, mas funciona."
+          tools={["Node.js"]}
+          link="https://www.npmjs.com/package/scratch-userdb"
+        />
       </Category>
+      <Category title="Game dev">
+        <Project
+          title="Scratch Quest"
+          about="Jogo boss rush completo com 4 bosses e história. Prove ao mundo que o Scratch é o melhor programa."
+          tools={["Godot"]}
+          link="https://gamejolt.com/games/scratchquest/512290"
+        />
+        <Project
+          title="Loop City"
+          about="Jogo de puzzle caótico criado em 2 dias para a Ludum Dare."
+          tools={["Godot"]}
+          link="https://fupi.itch.io/loopcity"
+        />
+        <Project
+          title="FrameRight"
+          about="Mecânica inovadora baseada em animação que conquistou +1000 votos no Reddit (r/godot)."
+          tools={["Godot"]}
+          link="https://fupi.itch.io/frameright"
+        />
+        <Project
+          title="Mais"
+          about="Eu já fiz muitos jogos, tem mais no site Fupicat."
+          link="https://fupicat.github.io/projetos.html#jogos"
+        />
+      </Category>
+      <Category title="Tradução">
+        <Project
+          title="Scratch"
+          about="É uma plataforma online de programação visual para crianças. Sou um dos tradutores principais do site para português brasileiro."
+          tools={["Transifex"]}
+          link="https://scratch.mit.edu/"
+        />
+        <Project
+          title="Scratch Addons"
+          about="Extensão de navegador para o Scratch com mais de 40.000 usuários. Sou o único tradutor do site, interface e documentação."
+          tools={["Transifex"]}
+          link="https://scratchaddons.com/pt-br/"
+        />
+        <Project
+          title="TurboWarp"
+          about="Versão modificada do Scratch. Sou o único tradutor do site, interface e documentação."
+          tools={["Transifex"]}
+          link="https://turbowarp.org/"
+        />
+      </Category>
+      <Category title="Sobre mim">
+        <Project
+          title="Gabriel Rauta Zanette · 18 anos · Caxias do Sul, RS"
+          about="Minha paixão é aprender coisas novas, especialmente relacionadas à programação! Comecei a aprendê-la para criar jogos, e hoje tenho paixão por desenvolvimento de websites e ferramentas. Além de programar gosto de compor música, editar vídeos, desenhar e nadar."
+        />
+      </Category>
+      <footer>
+        <div className="contato">
+          <a href="https://github.com/fupicat/"><i class="fab fa-github fa-2x"></i></a>
+          <a href="mailto:gabzanette437@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+          <a className="anchor" href="/Gabriel Rauta Zanette Currículo.pdf">Baixar currículo</a>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -2,6 +2,20 @@
   font-family: 'Merriweather', serif;
 }
 
+.main header, .main footer, .main section:nth-child(2n-1) {
+  background: rgb(236, 238, 240);
+}
+
+.main section:nth-child(2n) {
+  background: rgb(217, 222, 224);
+}
+
+.main footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;

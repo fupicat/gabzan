@@ -3,7 +3,10 @@ import './Project.css';
 
 export default function Project(props) {
   const tools = props.tools;
-  const toolImages = tools.map((tool) => <Tool title={tool} />);
+  let toolImages
+  if (tools) {
+    toolImages = tools.map((tool) => <Tool title={tool} />);
+  }
 
   let link, source;
 
@@ -13,6 +16,16 @@ export default function Project(props) {
 
   if (props.source) {
     source = <a className="anchor" href={props.source}>Código-fonte</a>;
+  }
+
+  let links;
+
+  if (link || source) {
+    links = (<nav className="links">
+          {link}
+          {source}
+        </nav>
+      );
   }
 
   return (
@@ -25,10 +38,7 @@ export default function Project(props) {
           {toolImages}
         </div>
       </div>
-      <nav className="links">
-        {link}
-        {source}
-      </nav>
+      {links}
     </div>
   )
 }
